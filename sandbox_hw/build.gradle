@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'sandbox_hw'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.testng:testng:7.1.0'
+    implementation 'com.mastfrog:selenium:2.6.0'
+    implementation 'com.google.guava:guava-gwt:28.1-jre'
+    implementation 'org.seleniumhq.selenium:selenium-chrome-driver:4.0.0-alpha-3'
+    implementation 'de.lgohlke.selenium:webdriver:20181118'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
+}
