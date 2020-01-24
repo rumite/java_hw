@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41479b8-9fe4-4cdf-98fc-8ac5e08b7974" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/java_hw.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox_hw/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/classes/java/main/ru/stqa/pft/sandbox_hw/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox_hw/build/classes/java/main/ru/stqa/pft/sandbox_hw/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/classes/java/test/PointTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox_hw/build/classes/java/test/PointTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/classes/java/test/PointTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/classes/PointTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/test-results/test/TEST-PointTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox_hw/src/test/java/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox_hw/src/test/java/PointTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook-web-tests-hw/.gradle/" />
@@ -71,8 +50,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="425">
+              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,21 +118,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,6 +129,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests-hw/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,7 +196,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579887081805</updated>
       <workItem from="1579887083079" duration="634000" />
-      <workItem from="1579887742323" duration="764000" />
+      <workItem from="1579887742323" duration="1055000" />
     </task>
     <servers />
   </component>
@@ -248,15 +216,21 @@
     <history-entry file="PointTest - 2020.01.24 at 20h 43m 35s.xml">
       <configuration name="PointTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PointTest - 2020.01.24 at 20h 55m 05s.xml">
+      <configuration name="PointTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreationGroupTests - 2020.01.24 at 20h 55m 20s.xml">
+      <configuration name="CreationGroupTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1398000" />
+    <option name="totallyTimeSpent" value="1689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -266,7 +240,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -319,8 +293,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="425">
+          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
