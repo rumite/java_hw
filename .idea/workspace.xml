@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41479b8-9fe4-4cdf-98fc-8ac5e08b7974" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/model/ContactsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests-hw/out/test/classes/ru/stqa/pft/addressbook/CreationGroupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/addressbook-web-tests-hw/.gradle/" />
@@ -47,13 +60,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1357#1358#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2106#2107#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
+                <element signature="e#2219#2220#0" expanded="true" />
+                <element signature="e#2272#2273#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
+                <element signature="e#1551#1552#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +174,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>keystos</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -76,6 +187,20 @@
       <list>
         <option value="$PROJECT_DIR$/sandbox_hw/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/ContactCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/tests/GroupCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/tests/ContactCreationTests.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/tests/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -93,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,10 +242,53 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sandbox_hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="addressbook-web-tests-hw" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -130,12 +297,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests-hw/build.gradle" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests-hw" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ru.stqa.pft.addressbook.appmanager" />
+      <recent name="tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,28 +323,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CreationGroupTests">
-    <configuration name="CreationGroupTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="GroupCreationTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="addressbook-web-tests-hw.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.CreationGroupTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PointTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sandbox_hw.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PointTest" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook.tests" />
+      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.addressbook.tests.GroupCreationTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -180,8 +343,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CreationGroupTests" />
-        <item itemvalue="TestNG.PointTest" />
+        <item itemvalue="TestNG.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -196,52 +358,62 @@
       <option name="presentableId" value="Default" />
       <updated>1579887081805</updated>
       <workItem from="1579887083079" duration="634000" />
-      <workItem from="1579887742323" duration="1055000" />
+      <workItem from="1579887742323" duration="6401000" />
+      <workItem from="1579894339623" duration="6033000" />
+      <workItem from="1580925280796" duration="4125000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PointTest - 2020.01.24 at 20h 36m 25s.xml">
-      <configuration name="PointTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PointTest - 2020.01.24 at 20h 38m 11s.xml">
-      <configuration name="PointTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PointTest - 2020.01.24 at 20h 39m 11s.xml">
-      <configuration name="PointTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTest - 2020.01.24 at 20h 41m 28s.xml">
-      <configuration name="PointTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="PointTest - 2020.01.24 at 20h 43m 35s.xml">
-      <configuration name="PointTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PointTest - 2020.01.24 at 20h 55m 05s.xml">
-      <configuration name="PointTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreationGroupTests - 2020.01.24 at 20h 55m 20s.xml">
+    <history-entry file="CreationGroupTests - 2020.01.24 at 21h 21m 23s.xml">
       <configuration name="CreationGroupTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreationGroupTests - 2020.01.24 at 21h 26m 16s.xml">
+      <configuration name="CreationGroupTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests_testContactCreation - 2020.01.24 at 21h 27m 02s.xml">
+      <configuration name="ContactCreationTests.testContactCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.24 at 21h 30m 01s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.24 at 21h 45m 31s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.24 at 22h 01m 47s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.24 at 22h 29m 13s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.24 at 23h 25m 59s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.25 at 00h 01m 39s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ContactCreationTests - 2020.01.25 at 00h 23m 59s.xml">
+      <configuration name="ContactCreationTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1689000" />
+    <option name="totallyTimeSpent" value="17193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -251,6 +423,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,12 +464,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/CreationGroupTests.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.0.0-alpha-3/1f8498fefd0345a0615636ca81e555f5219a21a3/selenium-api-4.0.0-alpha-3-sources.jar!/org/openqa/selenium/By.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="180">
+          <caret line="167" column="16" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+          <folding>
+            <element signature="e#3004#3005#0" expanded="true" />
+            <element signature="e#3037#3038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/model/ContactsData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/tests.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="265.1666666666667" y="263.0">ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
+            <node x="446.0" y="44.0">ru.stqa.pft.addressbook.appmanager.SessionHelper</node>
+            <node x="206.9166666666667" y="837.0">ru.stqa.pft.addressbook.tests.GroupCreationTests</node>
+            <node x="226.0" y="33.0">ru.stqa.pft.addressbook.appmanager.NavigationHelper</node>
+            <node x="398.9166666666667" y="837.0">ru.stqa.pft.addressbook.tests.ContactCreationTests</node>
+            <node x="0.0" y="0.0">ru.stqa.pft.addressbook.appmanager.GroupHelper</node>
+            <node x="306.6666666666667" y="693.0">ru.stqa.pft.addressbook.tests.TestBase</node>
+            <node x="647.0" y="22.0">ru.stqa.pft.addressbook.appmanager.ContactHelper</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.SessionHelper">
+              <point x="23.181818181818187" y="-190.0" />
+              <point x="415.8484848484849" y="203.0" />
+              <point x="491.25" y="203.0" />
+              <point x="-45.25" y="47.5" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.tests.ContactCreationTests" target="ru.stqa.pft.addressbook.tests.TestBase">
+              <point x="-45.5" y="-24.5" />
+              <point x="444.4166666666667" y="812.0" />
+              <point x="414.1666666666667" y="812.0" />
+              <point x="21.5" y="47.0" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.tests.TestBase" target="ru.stqa.pft.addressbook.appmanager.ApplicationManager">
+              <point x="43.0" y="-47.0" />
+              <point x="435.6666666666667" y="668.0" />
+              <point x="456.4166666666667" y="668.0" />
+              <point x="63.75" y="190.0" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.tests.GroupCreationTests" target="ru.stqa.pft.addressbook.tests.TestBase">
+              <point x="-43.0" y="-24.5" />
+              <point x="249.9166666666667" y="812.0" />
+              <point x="328.1666666666667" y="812.0" />
+              <point x="-64.5" y="47.0" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.NavigationHelper">
+              <point x="0.0" y="-190.0" />
+              <point x="66.66666666666669" y="58.5" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.GroupHelper">
+              <point x="-115.90909090909093" y="-190.0" />
+              <point x="276.75757575757575" y="243.0" />
+              <point x="34.33333333333337" y="243.0" />
+              <point x="-68.66666666666663" y="91.5" />
+            </edge>
+            <edge source="ru.stqa.pft.addressbook.appmanager.ApplicationManager" target="ru.stqa.pft.addressbook.appmanager.ContactHelper">
+              <point x="92.72727272727275" y="-190.0" />
+              <point x="485.39393939393943" y="233.0" />
+              <point x="764.0" y="233.0" />
+              <point x="0.0" y="69.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9349206349206349" x="724.0" y="445.0" />
+          <SelectedNodes>
+            <node>ru.stqa.pft.addressbook.appmanager.ApplicationManager</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/model/GroupData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2219#2220#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests-hw/src/test/java/ru/stqa/pft/addressbook/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
           </folding>
         </state>
       </provider>
